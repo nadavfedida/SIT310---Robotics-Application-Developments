@@ -1179,10 +1179,10 @@ void updateDirection(int angle)
     switch (angle)
     {
     case 270:
-      direction = north;
+      direction = south;
       break;
     case 90:
-      direction = south;
+      direction = north;
       break;
     case 180:
       direction = east;
